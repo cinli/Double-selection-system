@@ -46,9 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administrator\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Administrator\Form1.cs" />
     <Compile Include="Administrator\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
@@ -58,15 +56,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Student\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Student\Form1.cs" />
     <Compile Include="Student\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Teacher\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Teacher\Form1.cs" />
     <Compile Include="Teacher\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
