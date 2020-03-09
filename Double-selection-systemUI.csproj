@@ -79,6 +79,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="Double-selection-systemBll\Double-selection-systemBll.csproj">
+      <Project>{57f9aa81-9fcb-4e8d-afec-fc1b043ade3b}</Project>
+      <Name>Double-selection-systemBll</Name>
+    </ProjectReference>
+    <ProjectReference Include="Double-selection-systemModel\Double-selection-systemModel.csproj">
+      <Project>{65f24620-272f-43b6-9044-6c7123ca0b25}</Project>
+      <Name>Double-selection-systemModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
