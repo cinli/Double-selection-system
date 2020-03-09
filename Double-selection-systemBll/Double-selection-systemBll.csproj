@@ -44,5 +44,15 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Double-selection-systemDal\Double-selection-systemDal.csproj">
+      <Project>{acad1cf4-ff38-4f86-962d-a218486bee44}</Project>
+      <Name>Double-selection-systemDal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Double-selection-systemModel\Double-selection-systemModel.csproj">
+      <Project>{65f24620-272f-43b6-9044-6c7123ca0b25}</Project>
+      <Name>Double-selection-systemModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

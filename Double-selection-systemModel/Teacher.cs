@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Double_selection_systemModel
 {
-    public class Class1
+    class Teacher
     {
     }
 }
